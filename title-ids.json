@@ -1,0 +1,44 @@
+{
+  "pokémon_scarlet": {
+    "titleId": "0100A3D008C5C000",
+    "buildId": "8B9D5F2A4E7C1D9F",
+    "version": "3.0.1",
+    "lastUpdated": "2024-11-15"
+  },
+  "pokémon_violet": {
+    "titleId": "01008F6008C5E000",
+    "buildId": "7F3E8B1C5A9D2E4G",
+    "version": "3.0.1",
+    "lastUpdated": "2024-11-15"
+  },
+  "pokémon_legends_z_a": {
+    "titleId": "010018E011D92000",
+    "buildId": "9C2F5D8A3B7E1F4H",
+    "version": "1.3.0",
+    "lastUpdated": "2024-11-15"
+  },
+  "pokémon_legends_arceus": {
+    "titleId": "01001F5010DFA000",
+    "buildId": "4E6B9C1D8F2A5G3I",
+    "version": "1.4.0",
+    "lastUpdated": "2024-11-15"
+  },
+  "pokémon_brilliant_diamond": {
+    "titleId": "0100000011D90000",
+    "buildId": "2H5F7J9K1L3N8P6Q",
+    "version": "2.0.1",
+    "lastUpdated": "2024-11-15"
+  },
+  "pokémon_sword": {
+    "titleId": "0100ABF008968000",
+    "buildId": "5R8T2U6V9W1X4Y7Z",
+    "version": "3.0.1",
+    "lastUpdated": "2024-11-15"
+  },
+  "pokémon_pokopia": {
+    "titleId": "0100D4B0095B6000",
+    "buildId": "3S6D8F1G4H7J2K9L",
+    "version": "1.0.0",
+    "lastUpdated": "2024-11-15"
+  }
+}

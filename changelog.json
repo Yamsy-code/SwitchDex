@@ -1,0 +1,87 @@
+{
+  "currentVersion": "2.1.0",
+  "versions": [
+    {
+      "version": "2.1.0",
+      "codename": "Clarity",
+      "date": "December 7, 2025",
+      "latest": true,
+      "features": [
+        "/changelog command - View version history and release notes",
+        "Command renames for clarity:",
+        "  • /status → /dashboard",
+        "  • /data → /analytics",
+        "  • /compatibilitydigest → /ecosystem",
+        "  • /forcedigest → /senddigest",
+        "  • /anynewupdates → /recent",
+        "  • /updatehistory → /serverupdates",
+        "  • /homebrewupdates → /hbstatus",
+        "  • /viewsubscriptions → /mysubs",
+        "  • /serversettings → /settings",
+        "  • /botstats → /globalstats",
+        "Server ban commands now owner-only (/banserver, /unbanserver, /listbannedservers)",
+        "Slash commands auto-register when bot joins new servers"
+      ],
+      "improvements": [
+        "Reorganized command categories for better discoverability",
+        "Clearer command naming - no more confusion between similar commands",
+        "Better help menu organization with new category groupings",
+        "Improved startup logging"
+      ],
+      "fixes": [
+        "Fixed /invite command - added missing ButtonBuilder and ButtonStyle imports",
+        "Fixed .switchdex text command trigger",
+        "Removed deprecated /synctitleids command",
+        "Fixed owner-only commands not registering properly",
+        "Fixed owner-only commands not registering due to rate limiting",
+        "Fixed owner command registration timeout by using two-phase registration",
+        "Fixed corrupted announcement channels preventing notifications",
+        "Added validation for announcement channel data integrity",
+        "Unified all tracking to work identically - no more subscription filtering",
+        "Fixed corrupted announcement channel data",
+        "All repos now notify all configured channels"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "date": "December 7, 2025",
+      "latest": false,
+      "features": [
+        "Multi-server support with per-server data isolation",
+        "Category subscriptions (/subscribe, /unsubscribe, /mysubs)",
+        "Admin role delegation (/setadminrole, /removeadminrole)",
+        "Role mentions for update categories (/setmentionrole)",
+        "Quiet hours - pause notifications during set times",
+        "Digest mode - daily summary instead of instant alerts",
+        "17 new owner-only commands for bot management",
+        "Server settings dashboard (/settings)",
+        "Welcome message when bot joins new servers",
+        "Test notification command (/testnotification)",
+        "/invite command with setup guide attachment"
+      ],
+      "improvements": [
+        "Whitelist system for controlled bot access",
+        "Maintenance mode for scheduled downtime",
+        "Server activity logging to owner's channel",
+        "Broadcast messaging to all servers"
+      ],
+      "fixes": []
+    },
+    {
+      "version": "1.0.0",
+      "date": "December 4, 2025",
+      "features": [
+        "Initial release",
+        "Pokémon game update tracking (7 titles)",
+        "Homebrew application monitoring (20+ apps)",
+        "Firmware & CFW update detection",
+        "Custom GitHub repository tracking",
+        "Unified announcement channel system",
+        "User and server ban management",
+        "Comprehensive help system"
+      ],
+      "improvements": [],
+      "fixes": []
+    }
+  ]
+}

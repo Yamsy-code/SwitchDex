@@ -1,0 +1,185 @@
+{
+  "trackingStarted": "2025-12-04T23:53:23.034Z",
+  "scanStatistics": {
+    "totalScans": 210,
+    "successfulScans": 210,
+    "failedScans": 0,
+    "lastScanTime": "2025-12-09T21:36:39.817Z",
+    "averageScanDuration": 33431.99523809523,
+    "scanHistory": [],
+    "scansByDate": {
+      "2025-12-05": 1,
+      "2025-12-07": 136,
+      "2025-12-09": 73
+    }
+  },
+  "updateStatistics": {
+    "totalUpdatesDetected": 0,
+    "pokemonUpdates": 0,
+    "homebrewUpdates": 0,
+    "firmwareUpdates": 0,
+    "customTrackedUpdates": 0,
+    "updatesByDate": {},
+    "updatesByGame": {},
+    "updatesBySource": {},
+    "updateTimeline": []
+  },
+  "gameStatistics": {
+    "mostUpdatedGame": null,
+    "mostUpdatedCount": 0,
+    "updateFrequency": {},
+    "averageDaysBetweenUpdates": {},
+    "lastUpdateByGame": {},
+    "versionHistory": {}
+  },
+  "errorStatistics": {
+    "totalErrors": 0,
+    "errorsByType": {},
+    "mostCommonError": null,
+    "errorRate": 0,
+    "errorsByDate": {},
+    "errorHistory": []
+  },
+  "sourceStatistics": {
+    "sourceSuccessCount": {},
+    "sourceFailureCount": {},
+    "sourceReliability": {},
+    "averageResponseTime": {},
+    "sourceCallsByDate": {}
+  },
+  "timeStatistics": {
+    "peakUpdateHours": {},
+    "peakUpdateDays": {},
+    "averageUpdateTime": null,
+    "updateTimeDistribution": {}
+  },
+  "userStatistics": {
+    "totalUniqueUsers": 3,
+    "uniqueUsers": {
+      "1065094562965622875": {
+        "firstSeen": "2025-12-04T23:53:36.280Z",
+        "lastSeen": "2025-12-09T21:10:49.811Z",
+        "commandCount": 42,
+        "commandsUsed": {
+          "data": 1,
+          "titleid": 1,
+          "update": 1,
+          "cheatsource": 1,
+          "anynewupdates": 2,
+          "addtracking": 1,
+          "invite": 3,
+          "refreshcommands": 1,
+          "github": 2,
+          "help": 6,
+          "owneronlycmds": 1,
+          "dashboard": 1,
+          "recent": 1,
+          "changelog": 3,
+          "addchannel": 5,
+          "servers": 1,
+          "loghere": 7,
+          "setinterval": 3,
+          "broadcast": 1
+        },
+        "guilds": [
+          "1142889540219060255",
+          "1085591333764333578",
+          "1421244462901756046",
+          "1161443432284291205"
+        ]
+      },
+      "1121152419624144986": {
+        "firstSeen": "2025-12-07T03:39:16.191Z",
+        "lastSeen": "2025-12-09T21:33:31.639Z",
+        "commandCount": 8,
+        "commandsUsed": {
+          "loghere": 1,
+          "addchannel": 2,
+          "subscribe": 4,
+          "github": 1
+        },
+        "guilds": [
+          "1085591333764333578"
+        ]
+      },
+      "611292723856801803": {
+        "firstSeen": "2025-12-09T21:23:28.837Z",
+        "lastSeen": "2025-12-09T21:23:28.837Z",
+        "commandCount": 1,
+        "commandsUsed": {
+          "loghere": 1
+        },
+        "guilds": [
+          "1085591333764333578"
+        ]
+      }
+    },
+    "totalCommandsProcessed": 51,
+    "commandsByUser": {
+      "1065094562965622875": 42,
+      "1121152419624144986": 8,
+      "611292723856801803": 1
+    },
+    "commandsByType": {
+      "data": 1,
+      "titleid": 1,
+      "update": 1,
+      "cheatsource": 1,
+      "anynewupdates": 2,
+      "addtracking": 1,
+      "invite": 3,
+      "refreshcommands": 1,
+      "loghere": 9,
+      "addchannel": 7,
+      "subscribe": 4,
+      "github": 3,
+      "help": 6,
+      "owneronlycmds": 1,
+      "dashboard": 1,
+      "recent": 1,
+      "changelog": 3,
+      "servers": 1,
+      "setinterval": 3,
+      "broadcast": 1
+    },
+    "mostActiveUser": "1065094562965622875",
+    "mostActiveCommand": "loghere",
+    "firstUsageTimestamp": "2025-12-04T23:53:36.280Z",
+    "lastUsageTimestamp": "2025-12-09T21:33:31.639Z",
+    "usersByDate": {
+      "2025-12-04": [
+        "1065094562965622875"
+      ],
+      "2025-12-05": [
+        "1065094562965622875"
+      ],
+      "2025-12-07": [
+        "1065094562965622875"
+      ],
+      "2025-12-09": [
+        "1065094562965622875"
+      ]
+    },
+    "usersByServer": {
+      "1142889540219060255": [
+        "1065094562965622875"
+      ],
+      "1085591333764333578": [
+        "1121152419624144986"
+      ],
+      "1421244462901756046": [
+        "1065094562965622875"
+      ],
+      "1161443432284291205": [
+        "1065094562965622875"
+      ]
+    }
+  },
+  "botHealth": {
+    "uptime": 2700192,
+    "lastRestart": "2025-12-09T20:50:30.573Z",
+    "totalCommandsProcessed": 0,
+    "averageResponseTime": 0,
+    "startTime": "2025-12-09T20:50:30.573Z"
+  }
+}

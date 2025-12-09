@@ -1,0 +1,244 @@
+🎮 SWITCHDEX BOT - COMPLETE SETUP GUIDE
+=========================================
+
+Welcome to SwitchDex! This guide will help you set up and configure the bot for your Discord server.
+
+📋 TABLE OF CONTENTS
+===================
+1. Quick Start
+2. Basic Setup
+3. Advanced Configuration
+4. Command Reference
+5. Troubleshooting
+6. Support
+
+🚀 1. QUICK START
+================
+
+1. Invite SwitchDex to your server:
+   https://discord.com/oauth2/authorize?client_id=1443771523763798187&permissions=414733298752&integration_type=0&scope=bot
+
+2. Set up announcement channel:
+   /addchannel
+
+3. Configure subscriptions:
+   /subscribe category:homebrew
+   /subscribe category:firmware
+   /subscribe category:pokemon
+
+4. That's it! SwitchDex will start monitoring and sending updates.
+
+⚙️ 2. BASIC SETUP
+================
+
+2.1 INVITING THE BOT
+--------------------
+- Use the invite link above
+- Grant the following permissions:
+  • Send Messages
+  • Embed Links
+  • View Channels
+  • Use Slash Commands
+  • Create Instant Invite (optional, for investigation)
+
+2.2 SETTING UP ANNOUNCEMENT CHANNELS
+-----------------------------------
+/addchannel
+- Run this in the channel where you want update notifications
+- You can add multiple channels per server
+- Each channel can have different subscriptions
+
+2.3 CONFIGURING SUBSCRIPTIONS
+-----------------------------
+Choose what updates you want to receive:
+
+/subscribe category:homebrew   - Homebrew applications
+/subscribe category:firmware   - System firmware updates
+/subscribe category:pokemon    - Pokémon game updates
+/subscribe category:custom     - Custom tracked repositories
+
+To stop receiving updates:
+/unsubscribe category:homebrew
+
+View current subscriptions:
+/mysubs
+
+🔧 3. ADVANCED CONFIGURATION
+===========================
+
+3.1 ADMIN ROLE SETUP
+--------------------
+Set a role that can manage bot settings:
+
+/setadminrole role:@Moderators
+
+Remove admin role:
+/removeadminrole
+
+3.2 ROLE MENTIONS
+-----------------
+Ping specific roles for updates:
+
+/setmentionrole category:homebrew role:@HomebrewTeam
+/setmentionrole category:firmware role:@TechTeam
+
+Stop pinging:
+/removementionrole category:homebrew
+
+3.3 QUIET HOURS
+--------------
+Set times when notifications shouldn't be sent:
+
+/setquiethours start:22:00 end:08:00 timezone:EST
+
+Disable quiet hours:
+/removequiethours
+
+During quiet hours, notifications are queued and sent when quiet hours end.
+
+3.4 DIGEST MODE
+---------------
+Receive daily summary instead of instant notifications:
+
+/setdigestmode mode:on time:09:00 timezone:EST
+
+Disable digest mode:
+/setdigestmode mode:off
+
+3.5 CUSTOM REPOSITORY TRACKING
+-------------------------------
+Track specific GitHub repositories:
+
+/addtracking link:https://github.com/developer/repo
+
+You can also specify a custom display name:
+/addtracking link:https://github.com/developer/repo name:"My Custom App"
+
+Remove tracking:
+/removetracking
+
+4. COMPREHENSIVE COMMAND REFERENCE
+==================================
+
+4.1 GENERAL COMMANDS
+--------------------
+/help                    - Show all available commands
+/dashboard              - System status and compatibility
+/invite                  - Bot invite link and setup guide
+
+4.2 UPDATE MONITORING
+---------------------
+/recent                 - 24-hour update summary
+/hbstatus               - Homebrew ecosystem overview
+/firmware               - Current firmware status
+/update game:<game>     - Specific game update info
+/github                 - View tracked repositories
+
+4.3 CHANNEL MANAGEMENT
+----------------------
+/addchannel             - Add announcement channel
+/removechannel          - Remove announcement channel
+/listchannels           - List announcement channels
+/checkpermissions       - Verify bot permissions
+
+4.4 SUBSCRIPTION MANAGEMENT
+---------------------------
+/subscribe              - Subscribe to update categories
+/unsubscribe            - Unsubscribe from categories
+/mysubs      - Show current subscriptions
+
+4.5 ADVANCED SETTINGS
+---------------------
+/setadminrole           - Set admin role for management
+/removeadminrole        - Remove admin role
+/setmentionrole         - Configure role pings
+/removementionrole      - Remove role pings
+/setquiethours          - Set quiet hours
+/removequiethours       - Disable quiet hours
+/setdigestmode          - Enable/disable digest mode
+
+4.6 CUSTOM TRACKING
+-------------------
+/addtracking            - Add GitHub repo to track
+/removetracking         - Remove tracked repository
+
+4.7 ADMINISTRATIVE (Admin role required)
+----------------------------------------
+/banuser                - Ban user from bot
+/unbanuser              - Unban user
+/listbannedusers        - Show banned users
+/banserver              - Ban server
+/unbanserver            - Unban server
+/listbannedservers      - Show banned servers
+
+4.8 SPECIALIZED TOOLS
+---------------------
+/ecosystem              - Full ecosystem overview
+/firmwareupgrade        - Upgrade planning guide
+/titleid                - Title ID information
+/cheatsource            - Cheat code resources
+/organizecheats         - AI cheat organizer
+/blacklistmonitor       - Security blacklist
+/riskscan               - Safety assessment
+/hostping               - API status checks
+
+5. TROUBLESHOOTING
+==================
+
+5.1 BOT NOT RESPONDING
+----------------------
+• Check if bot is online: Look for green status
+• Verify permissions: Bot needs Send Messages, Embed Links
+• Try /checkpermissions to diagnose issues
+
+5.2 NOT RECEIVING UPDATES
+-------------------------
+• Verify announcement channel: /listchannels
+• Check subscriptions: /mysubs
+• Confirm bot permissions in announcement channel
+
+5.3 PERMISSION ERRORS
+---------------------
+• Bot needs these permissions in announcement channels:
+  - Send Messages
+  - Embed Links
+  - View Channel
+• Use /checkpermissions to verify
+
+5.4 MAINTENANCE MODE
+--------------------
+If you see "SwitchDex is under maintenance", the bot owner has temporarily disabled commands. Try again later.
+
+6. SUPPORT & RESOURCES
+======================
+
+6.1 GETTING HELP
+---------------
+• Use /help for command reference
+• Check /dashboard for system information
+• Contact server administrators for server-specific issues
+
+6.2 BOT OWNER
+-------------
+For bot-wide issues or feature requests, contact the bot owner.
+
+6.3 COMMUNITY
+-------------
+Join our community for updates, support, and discussions.
+
+📞 SUPPORT CONTACT
+==================
+For technical support or questions:
+• Check bot status: /dashboard
+• View permissions: /checkpermissions
+• Contact server admins
+
+🎉 ENJOY SWITCHDEX!
+==================
+Your Nintendo Switch ecosystem monitoring is now active!
+
+Remember to regularly check for updates and keep your subscriptions current. Use /settings to view your current configuration.
+
+Happy gaming! 🎮
+
+

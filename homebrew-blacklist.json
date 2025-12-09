@@ -1,0 +1,45 @@
+{
+  "dangerous_apps": [
+    {
+      "name": "MaliciousApp",
+      "reason": "Contains malware and keyloggers",
+      "severity": "critical",
+      "lastReported": "2024-11-15",
+      "source": "Community reports"
+    },
+    {
+      "name": "FakeHomebrew",
+      "reason": "Imitates legitimate apps to steal data",
+      "severity": "high",
+      "lastReported": "2024-11-10",
+      "source": "Security researchers"
+    }
+  ],
+  "abandoned_apps": [
+    {
+      "name": "OldTool",
+      "reason": "No longer maintained, security vulnerabilities",
+      "severity": "medium",
+      "lastReported": "2024-10-01",
+      "source": "Developer announcement"
+    },
+    {
+      "name": "DeprecatedApp",
+      "reason": "Replaced by newer version, contains bugs",
+      "severity": "low",
+      "lastReported": "2024-09-15",
+      "source": "Community feedback"
+    }
+  ],
+  "warning_apps": [
+    {
+      "name": "UnstableTool",
+      "reason": "Known to crash systems randomly",
+      "severity": "medium",
+      "lastReported": "2024-11-01",
+      "source": "User reports"
+    }
+  ],
+  "last_updated": "2024-11-15T10:00:00Z",
+  "update_source": "https://raw.githubusercontent.com/your-repo/homebrew-blacklist/main/blacklist.json"
+}

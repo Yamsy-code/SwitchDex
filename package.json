@@ -1,0 +1,19 @@
+{
+  "name": "switchdex",
+  "version": "1.0.0",
+  "description": "Unified Nintendo Switch Update Monitor Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}

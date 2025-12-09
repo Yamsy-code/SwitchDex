@@ -1,0 +1,20 @@
+{
+  "omni-kingzeno-zenbot-net": {
+    "name": "ZenBot.NET",
+    "version": "v4.9.5",
+    "dateText": "December 5, 2025",
+    "url": "https://github.com/Omni-KingZeno/ZenBot.NET/releases/tag/v4.9.5",
+    "addedBy": "1065094562965622875",
+    "addedAt": "2025-12-04T00:50:04.908Z",
+    "guildId": "1440884623872884849"
+  },
+  "kwsch-pkhex": {
+    "name": "PKHeX",
+    "version": "25.12.02",
+    "dateText": "December 2, 2025",
+    "url": "https://github.com/kwsch/PKHeX/releases/latest",
+    "addedBy": "1065094562965622875",
+    "addedAt": "2025-12-05T00:19:46.473Z",
+    "guildId": "1440884623872884849"
+  }
+}
